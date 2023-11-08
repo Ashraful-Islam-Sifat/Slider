@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.slider_container{
+    background-color: rgb(181, 180, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 450px;
+    padding: 50px;
+}
+
+.slider_area{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.slider_item{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    position: absolute;
+    background: transparent;
+    transition: all 1s ease-in-out;
+    padding: 50px;
+}
+
+.image{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(131, 131, 131);
+}
+
+.job{
+    color: rgba(45, 45, 45, 0.452);
+    font-weight: bold;
+    
+}
+
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 2rem;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    cursor: pointer;
+}
